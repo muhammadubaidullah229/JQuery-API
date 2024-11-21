@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Management System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <h1>Customer Information</h1>
+    <form id="user-form">
+      <input type="hidden" id="user-id">
+      <input type="text" id="username" placeholder="Enter Customer name" required>
+      <button type="submit" id="submit-button">Add User</button>
+    </form>
+    <div id="user-list"></div>
+  </div>
+  
+  <script src="crud.js"></script>
+</body>
+</html>
